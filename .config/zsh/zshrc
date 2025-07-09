@@ -27,6 +27,12 @@ plugins=(git mise ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
+############
+### MISE ###
+############
+
+eval "$(mise activate zsh)"
+
 #############
 ### ALIAS ###
 #############

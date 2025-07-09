@@ -1,10 +1,2 @@
-add_path() {
-    if [ -d "$1" ]; then
-        PATH="$1:$PATH"
-    fi
-}
-
-add_path "$HOME/.cargo/bin"
-add_path "$HOME/.go/root/bin"
-add_path "$HOME/.go/path/bin"
-add_path "$HOME/.local/bin"
+[ -d "$HOME/.cargo/bin" ] && export PATH="$HOME/.cargo/bin:$PATH"
+[ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
