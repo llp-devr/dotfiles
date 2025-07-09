@@ -17,7 +17,7 @@
 "aqua:snyk/cli" = "latest"
 "aqua:JohnnyMorganz/StyLua" = "latest"
 
-"core:java" = "corretto-21"
+"java" = "corretto-21"
 
 [env]
 EDITOR = "nvim"
