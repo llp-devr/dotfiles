@@ -19,11 +19,6 @@
 
 "core:java" = "corretto-21"
 
-"ubi:clangd/clangd" = {version = "20.1.0"}
-
 [env]
 EDITOR = "nvim"
 VISUAL = "nvim"
-
-CXX = "clang++"
-CC = "clang"

@@ -1,7 +1,5 @@
 [user]
 	name = Leonardo Lopes Pereira
-	email = leonardolopespereira@outlook.com
-	signingkey = /home/leonardo/.ssh/id_llp
 
 [commit]
 	gpgSign = true
