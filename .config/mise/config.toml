@@ -1,0 +1,29 @@
+[tools]
+"aqua:BurntSushi/ripgrep" = "latest"
+"aqua:dandavison/delta" = "latest"
+"aqua:eza-community/eza" = "latest"
+"aqua:houseabsolute/ubi" = "latest"
+"aqua:jesseduffield/lazygit" = "latest"
+"aqua:kubernetes/kubectl" = "latest"
+"aqua:jesseduffield/lazydocker" = "latest"
+"aqua:LuaLS/lua-language-server" = "latest"
+"aqua:mvdan/sh" = "latest"
+"aqua:neovim/neovim" = "0.11.2"
+"aqua:open-policy-agent/opa" = "latest"
+"aqua:opentofu/opentofu" = "latest"
+"aqua:pinterest/ktlint" = "latest"
+"aqua:sharkdp/bat" = "latest"
+"aqua:sharkdp/fd" = "latest"
+"aqua:snyk/cli" = "latest"
+"aqua:JohnnyMorganz/StyLua" = "latest"
+
+"core:java" = "corretto-21"
+
+"ubi:clangd/clangd" = {version = "20.1.0"}
+
+[env]
+EDITOR = "nvim"
+VISUAL = "nvim"
+
+CXX = "clang++"
+CC = "clang"
