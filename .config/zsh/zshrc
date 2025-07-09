@@ -1,5 +1,11 @@
 export SHELL
 
+############
+### PATH ###
+############
+
+[ -f "$ZDOTDIR/path.sh" ] && source "$ZDOTDIR/path.sh"
+
 #################
 ### OH MY ZSH ###
 #################
@@ -33,21 +39,15 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(mise activate zsh)"
 
+##################
+### GIT CONFIG ###
+##################
+
+[ -f "$ZDOTDIR/git.sh" ] && source "$ZDOTDIR/git.sh"
+
 #############
 ### ALIAS ###
 #############
 
-# EZA
-if command -v eza &> /dev/null; then
-  alias ls='eza'
-fi
-
-# EMACS
-if command -v emacs-gtk+x11 &> /dev/null; then
-  alias emacs='emacs-gtk+x11'
-fi
-
-# LAZYGIT
-if command -v lazygit &> /dev/null; then
-  alias lg='lazygit'
-fi
+command -v eza &> /dev/null && alias ls='eza'
+command -v lazygit &> /dev/null && alias lg='lazygit'
