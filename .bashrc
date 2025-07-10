@@ -25,6 +25,7 @@ elif [ -f /etc/bash_completion ]; then
 fi
 
 ### HISTORY
+export HISTFILE="$HOME/.history"
 export HISTFILESIZE=10000
 export HISTSIZE=500
 export HISTTIMEFORMAT="%F %T"
