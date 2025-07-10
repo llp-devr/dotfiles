@@ -16,6 +16,3 @@ command -v eza &> /dev/null && \
 
 command -v lazygit &> /dev/null && \
   alias lg='lazygit'
-
-command -v rg &> /dev/null && \
-  alias grep='rg'
