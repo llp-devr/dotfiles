@@ -8,7 +8,6 @@
 "aqua:kubernetes/kubectl" = "latest"
 "aqua:jesseduffield/lazydocker" = "latest"
 "aqua:junegunn/fzf" = "latest"
-"aqua:LuaLS/lua-language-server" = "latest"
 "aqua:mvdan/sh" = "latest"
 "aqua:neovim/neovim" = "0.11.2"
 "aqua:open-policy-agent/opa" = "latest"
@@ -20,6 +19,7 @@
 "aqua:JohnnyMorganz/StyLua" = "latest"
 
 "ubi:JanDeDobbeleer/oh-my-posh" = "latest"
+
 "asdf:mise-plugins/mise-1password-cli" = "latest"
 
 "java" = "corretto-21"
