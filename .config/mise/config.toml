@@ -1,4 +1,5 @@
 [tools]
+"aqua:ajeetdsouza/zoxide" = "latest"
 "aqua:BurntSushi/ripgrep" = "latest"
 "aqua:dandavison/delta" = "latest"
 "aqua:eza-community/eza" = "latest"
@@ -6,6 +7,7 @@
 "aqua:jesseduffield/lazygit" = "latest"
 "aqua:kubernetes/kubectl" = "latest"
 "aqua:jesseduffield/lazydocker" = "latest"
+"aqua:junegunn/fzf" = "latest"
 "aqua:LuaLS/lua-language-server" = "latest"
 "aqua:mvdan/sh" = "latest"
 "aqua:neovim/neovim" = "0.11.2"
@@ -16,6 +18,8 @@
 "aqua:sharkdp/fd" = "latest"
 "aqua:snyk/cli" = "latest"
 "aqua:JohnnyMorganz/StyLua" = "latest"
+
+"ubi:JanDeDobbeleer/oh-my-posh" = "latest"
 
 "java" = "corretto-21"
 
