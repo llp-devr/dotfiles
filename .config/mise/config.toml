@@ -20,6 +20,7 @@
 "aqua:JohnnyMorganz/StyLua" = "latest"
 
 "ubi:JanDeDobbeleer/oh-my-posh" = "latest"
+"asdf:mise-plugins/mise-1password-cli" = "latest"
 
 "java" = "corretto-21"
 
