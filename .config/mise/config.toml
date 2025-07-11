@@ -2,6 +2,7 @@
 "aqua:ajeetdsouza/zoxide" = "latest"
 "aqua:BurntSushi/ripgrep" = "latest"
 "aqua:dandavison/delta" = "latest"
+"aqua:docker/compose" = "latest"
 "aqua:eza-community/eza" = "latest"
 "aqua:houseabsolute/ubi" = "latest"
 "aqua:jesseduffield/lazygit" = "latest"
@@ -19,8 +20,7 @@
 "aqua:JohnnyMorganz/StyLua" = "latest"
 
 "ubi:JanDeDobbeleer/oh-my-posh" = "latest"
-
-"asdf:mise-plugins/mise-1password-cli" = "latest"
+"ubi:docker/buildx" = "latest"
 
 "java" = "corretto-21"
 

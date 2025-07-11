@@ -17,6 +17,12 @@ eval "$(mise activate bash)"
 ### ALIAS
 [ -f "$BASH_CONFIG_DIR/alias.sh" ] && source "$BASH_CONFIG_DIR/alias.sh"
 
+### AWS
+[ -f "$BASH_CONFIG_DIR/aws.sh" ] && source "$BASH_CONFIG_DIR/aws.sh"
+
+### DOCKER
+[ -f "$BASH_CONFIG_DIR/docker.sh" ] && source "$BASH_CONFIG_DIR/docker.sh"
+
 ### AUTOCOMPLETE
 if [ -f /usr/share/bash-completion/bash_completion ]; then
 	. /usr/share/bash-completion/bash_completion
