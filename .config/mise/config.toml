@@ -11,6 +11,7 @@
 "neovim" = "latest"
 "opentofu" = "latest"
 "ripgrep" = "latest"
+"tree-sitter" = "latest"
 "zoxide" = "latest"
 
 # style
@@ -22,3 +23,6 @@
 [env]
 EDITOR = "nvim"
 VISUAL = "nvim"
+
+[settings]
+experimental = true
