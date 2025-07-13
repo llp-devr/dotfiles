@@ -1,15 +1,9 @@
-# NeoVim Configuration
+**This repo is supposed to be used as config by NvChad users!**
 
-A personal NeoVim setup based on NvChad v2.5
+- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
+- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
+- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
 
-## Core Plugins
+# Credits
 
-- 42header: Custom header template for 42 school projects
-- LSP: Intelligent code completion and diagnostics
-- Treesitter: Enhanced syntax highlighting
-- Conform: Code formatting and linting
-
-## Note
-
-This is my personal configuration tailored to my workflow. You may want to
-adjust settings to match your preferences.
+1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!

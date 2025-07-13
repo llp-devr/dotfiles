@@ -7,7 +7,7 @@ return {
   s("42headers", {
     t {
       "/*",
-      ' * "Programmers are tools for converting caffeine into code."',
+      " * \"Programmers are tools for converting caffeine into code.\"",
       " * — Anonymous",
       " *",
       " * File: " .. vim.fn.expand "%:t",

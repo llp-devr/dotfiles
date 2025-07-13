@@ -1,4 +1,4 @@
-print("Loaded C ftplugin")
+print "Loaded C ftplugin"
 
 vim.opt_local.expandtab = false
 vim.opt_local.shiftwidth = 4
