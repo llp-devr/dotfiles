@@ -20,6 +20,10 @@
 # langs
 "go" = "latest"
 
+
+# tools
+"stylua" = "latest"
+
 [env]
 EDITOR = "nvim"
 VISUAL = "nvim"
