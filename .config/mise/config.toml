@@ -1,0 +1,24 @@
+[tools]
+# cli
+"bat" = "latest"
+"delta" = "latest"
+"eza" = "latest"
+"fd" = "latest"
+"fzf" = "latest"
+"kubectl" = "latest"
+"lazydocker" = "latest"
+"lazygit" = "latest"
+"neovim" = "latest"
+"opentofu" = "latest"
+"ripgrep" = "latest"
+"zoxide" = "latest"
+
+# style
+"ubi:JanDeDobbeleer/oh-my-posh" = "latest"
+
+# langs
+"go" = "latest"
+
+[env]
+EDITOR = "nvim"
+VISUAL = "nvim"

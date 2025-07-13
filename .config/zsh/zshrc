@@ -1,0 +1,53 @@
+export SHELL
+
+############
+### PATH ###
+############
+
+[ -f "$ZDOTDIR/path.sh" ] && source "$ZDOTDIR/path.sh"
+
+#################
+### OH MY ZSH ###
+#################
+
+export ZSH="$ZDOTDIR/ohmyzsh"
+
+ZSH_THEME="ys"
+
+CASE_SENSITIVE="false"
+
+zstyle ':omz:update' mode auto
+zstyle ':omz:update' frequency 3
+
+zstyle ':omz:plugins:ssh-agent' agent-forwarding yes
+zstyle ':omz:plugins:ssh-agent' identities ~/.dotfiles/ssh/{id_42,id_llp}
+zstyle ':omz:plugins:ssh-agent' lifetime 8h
+
+COMPLETION_WAITING_DOTS="true"
+
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+HIST_STAMPS="yyyy-mm-dd"
+
+plugins=(git mise ssh-agent)
+
+source $ZSH/oh-my-zsh.sh
+
+############
+### MISE ###
+############
+
+eval "$(mise activate zsh)"
+
+##################
+### GIT CONFIG ###
+##################
+
+[ -f "$ZDOTDIR/git.sh" ] && source "$ZDOTDIR/git.sh"
+
+#############
+### ALIAS ###
+#############
+
+command -v eza &> /dev/null && alias ls='eza'
+command -v lazygit &> /dev/null && alias lg='lazygit'
