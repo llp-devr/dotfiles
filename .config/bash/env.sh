@@ -37,7 +37,6 @@ export GIT_CONFIG_GLOBAL="$XDG_CONFIG_HOME/git/config"
 ##########
 
 export GOPATH="$HOME/.go/path"
-export GOROOT="$HOME/.go/root"
 
 ############
 ### JAVA ###
