@@ -35,3 +35,9 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.filetype.add {
+  extension = {
+    h = "c",
+  },
+}

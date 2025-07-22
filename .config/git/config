@@ -14,7 +14,7 @@
 	allowedSignersFile = ~/.ssh/allowed_signers
 
 [init]
-    defaultBranch = master
+	defaultBranch = master
 
 [pull]
     rebase = true

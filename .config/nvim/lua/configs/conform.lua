@@ -1,6 +1,7 @@
 local options = {
   formatters_by_ft = {
     ansible = { "ansible-lint" },
+    cpp = { "clang-format" },
     css = { "prettier" },
     html = { "prettier" },
     kotlin = { "ktfmt" },

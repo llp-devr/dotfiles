@@ -1,6 +1,7 @@
 [tools]
 # cli
 "bat" = "latest"
+"clang-format" = "latest"
 "delta" = "latest"
 "eza" = "latest"
 "fd" = "latest"
@@ -9,20 +10,12 @@
 "lazydocker" = "latest"
 "lazygit" = "latest"
 "neovim" = "latest"
-"opentofu" = "latest"
 "ripgrep" = "latest"
 "tree-sitter" = "latest"
 "zoxide" = "latest"
 
 # style
 "ubi:JanDeDobbeleer/oh-my-posh" = "latest"
-
-# langs
-"go" = "latest"
-
-
-# tools
-"stylua" = "latest"
 
 [env]
 EDITOR = "nvim"
