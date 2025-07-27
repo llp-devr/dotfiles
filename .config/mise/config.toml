@@ -10,6 +10,8 @@
 "lazydocker" = "latest"
 "lazygit" = "latest"
 "neovim" = "latest"
+"opentofu" = "latest"
+"rclone" = "latest"
 "ripgrep" = "latest"
 "tree-sitter" = "latest"
 "zoxide" = "latest"
