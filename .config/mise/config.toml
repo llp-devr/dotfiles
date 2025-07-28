@@ -1,7 +1,6 @@
 [tools]
 # cli
 "bat" = "latest"
-"clang-format" = "latest"
 "delta" = "latest"
 "eza" = "latest"
 "fd" = "latest"
