@@ -18,6 +18,9 @@
 # style
 "ubi:JanDeDobbeleer/oh-my-posh" = "latest"
 
+# java
+"java" = "corretto-21"
+
 [env]
 EDITOR = "nvim"
 VISUAL = "nvim"

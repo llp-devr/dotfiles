@@ -3,6 +3,7 @@ require("nvchad.configs.lspconfig").defaults()
 local servers = {
   "clangd",
   "gopls",
+  "kotlin_lsp",
 }
 
 vim.lsp.enable(servers)

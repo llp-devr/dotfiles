@@ -30,6 +30,10 @@ elif [ -f /etc/bash_completion ]; then
 	. /etc/bash_completion
 fi
 
+### WSL
+
+[ -n "$WT_SESSION" ] && source "$BASH_CONFIG_DIR/wsl.sh"
+
 ### HISTORY
 export HISTFILE="$HOME/.history"
 export HISTFILESIZE=10000
