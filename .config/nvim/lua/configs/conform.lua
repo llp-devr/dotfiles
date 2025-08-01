@@ -7,6 +7,7 @@ local options = {
     kotlin = { "ktfmt" },
     lua = { "stylua" },
     markdown = { "prettier" },
+    python = { "black" },
   },
 
   format_on_save = {
