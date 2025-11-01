@@ -1,5 +1,6 @@
 [tools]
 # cli
+"1password-cli" = "latest"
 "bat" = "latest"
 "delta" = "latest"
 "eza" = "latest"
