@@ -1,20 +1,20 @@
 [user]
-	name = Leonardo Lopes Pereira
+    name = Leonardo Lopes Pereira
 
 [commit]
-	gpgSign = true
+    gpgSign = true
 
 [fetch]
-	prune = true
+    prune = true
 
 [gpg]
-	format = ssh
+    format = ssh
 
 [gpg "ssh"]
-	allowedSignersFile = ~/.ssh/allowed_signers
+    allowedSignersFile = ~/.ssh/allowed_signers
 
 [init]
-	defaultBranch = master
+    defaultBranch = master
 
 [pull]
     rebase = true
@@ -24,10 +24,10 @@
     default = simple
 
 [remote "origin"]
-	prune = true
+    prune = true
 
 [status]
     showUntrackedFiles = all
 
 [tag]
-	gpgSign = false
+    gpgSign = false

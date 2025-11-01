@@ -9,14 +9,8 @@
 "lazydocker" = "latest"
 "lazygit" = "latest"
 "neovim" = "latest"
-"opentofu" = "latest"
 "rclone" = "latest"
 "ripgrep" = "latest"
-"tree-sitter" = "latest"
-"zoxide" = "latest"
-
-# style
-"ubi:JanDeDobbeleer/oh-my-posh" = "latest"
 
 # java
 "java" = "corretto-21"
@@ -24,6 +18,3 @@
 [env]
 EDITOR = "nvim"
 VISUAL = "nvim"
-
-[settings]
-experimental = true

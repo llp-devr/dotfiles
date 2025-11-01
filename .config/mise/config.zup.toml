@@ -1,4 +1,0 @@
-[tools]
-"java" = "corretto-21"
-"opa" = "latest"
-"snyk" = "latest"

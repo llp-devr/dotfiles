@@ -4,13 +4,15 @@ export SHELL
 ### PATH ###
 ############
 
-[ -f "$ZDOTDIR/path.sh" ] && source "$ZDOTDIR/path.sh"
+[ -d "$HOME/.cargo/bin" ] && export PATH="$HOME/.cargo/bin:$PATH"
+[ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
+[ -d "$HOME/.stk/bin" ] && export PATH="$HOME/.stk/bin:$PATH"
 
 #################
 ### OH MY ZSH ###
 #################
 
-export ZSH="$ZDOTDIR/ohmyzsh"
+export ZSH="$ZDOTDIR/oh-my-zsh"
 
 ZSH_THEME="ys"
 
@@ -20,8 +22,7 @@ zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 3
 
 zstyle ':omz:plugins:ssh-agent' agent-forwarding yes
-zstyle ':omz:plugins:ssh-agent' identities ~/.dotfiles/ssh/{id_42,id_llp}
-zstyle ':omz:plugins:ssh-agent' lifetime 8h
+zstyle ':omz:plugins:ssh-agent' lazy yes
 
 COMPLETION_WAITING_DOTS="true"
 
@@ -29,15 +30,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 HIST_STAMPS="yyyy-mm-dd"
 
-plugins=(git mise ssh-agent)
+plugins=(aws mise ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
-
-############
-### MISE ###
-############
-
-eval "$(mise activate zsh)"
 
 ##################
 ### GIT CONFIG ###
@@ -49,5 +44,20 @@ eval "$(mise activate zsh)"
 ### ALIAS ###
 #############
 
-command -v eza &> /dev/null && alias ls='eza'
-command -v lazygit &> /dev/null && alias lg='lazygit'
+command -v eza &> /dev/null && \
+  alias ls='eza'
+
+command -v batcat &> /dev/null && \
+  alias bat='batcat'
+
+command -v bat &> /dev/null && \
+  alias h='history | bat --style plain'
+
+##
+
+alias cp='cp -i'
+alias mv='mv -i'
+
+##
+
+alias lg='lazygit'
