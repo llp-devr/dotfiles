@@ -8,6 +8,14 @@ export SHELL
 [ -d "$HOME/.local/bin" ] && export PATH="$HOME/.local/bin:$PATH"
 [ -d "$HOME/.stk/bin" ] && export PATH="$HOME/.stk/bin:$PATH"
 
+###############
+### LOCALES ###
+###############
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANGUAGE=en_US:en
+
 #################
 ### OH MY ZSH ###
 #################
@@ -34,12 +42,6 @@ plugins=(aws mise ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
-##################
-### GIT CONFIG ###
-##################
-
-[ -f "$ZDOTDIR/git.sh" ] && source "$ZDOTDIR/git.sh"
-
 #############
 ### ALIAS ###
 #############
@@ -61,3 +63,12 @@ alias mv='mv -i'
 ##
 
 alias lg='lazygit'
+
+###############
+### SCRIPTS ###
+###############
+
+[ -f "$ZDOTDIR/ssh.sh" ] && source "$ZDOTDIR/ssh.sh"
+[ -f "$ZDOTDIR/git.sh" ] && source "$ZDOTDIR/git.sh"
+[ -f "$ZDOTDIR/prime-run.sh" ] && source "$ZDOTDIR/prime-run.sh"
+

@@ -1,5 +1,6 @@
 [tools]
 # cli
+"aws" = "latest"
 "1password-cli" = "latest"
 "bat" = "latest"
 "delta" = "latest"
